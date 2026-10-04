@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Jupyter
+.ipynb_checkpoints/
+.virtual_documents/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+kaggle.json
+
+# Competition data, model weights and generated files
+data/
+input/
+working/
+ecg_infer/
+*.npy
+*.pth
+*.pt
+*.ckpt
+submission.csv
+submission.parquet
+
+# System files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
